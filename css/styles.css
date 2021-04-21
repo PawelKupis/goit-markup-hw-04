@@ -138,8 +138,14 @@ img {
 
 
 .header .container{
-  background: #2f303a;
+  background: rgba(47, 48, 58, 0.4); 
+  background-image: url(/images/background/headerbackground.jpg);
+  height: 600px;
+  left: 0px;
+  top: 80px;
+  background-repeat: no-repeat; 
 }
+
 .container .header-item{
   display: flex;
   flex-direction: column;
