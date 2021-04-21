@@ -1,0 +1,363 @@
+:root {
+  --main-font: 'Roboto', sans-serif;
+  --secondary-font: 'Raleway', sans-serif;
+  --main-color: #2196f3;
+  --text-default: #212121;
+  --description: #757575;
+  --white: #ffffff;
+}
+body {
+  font-family: var(--main-font);
+  color: var(--text-default);
+}
+a{
+  text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+}
+
+ul,
+ol {
+    padding: 0;
+    margin: 0;
+}
+
+p {
+    padding: 0;
+}
+
+img {
+    display: block;
+}
+.list {
+  list-style: none;
+}
+.container {
+  width: 1600px;
+  padding: 0 215px;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+/* ########### COMPONENT ############## */
+.header-btn,
+.filters-list-btn {
+  background: #f5f4fa;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.header-btn:hover,
+.header-btn:focus,
+.filters-list-btn:hover,
+.filters-list-btn:focus {
+  background: var(--main-color);
+  color: var(--white);
+}
+
+/* ########### END COMPONENT ############## */
+
+/* ########### MENU ############## */
+.menu{
+  
+}
+
+.menu .container {
+  display: flex;
+  align-items: center;
+  padding-top: 24px;
+  padding-bottom: 25px;
+  border-bottom: 1px solid #ECECEC ;
+  
+}
+.menu-logo{
+  margin-right: 93px;
+
+}
+.navigation-list {
+  display: flex;
+}
+.navigation-list-item:not(:last-child){
+  margin-right: 46px;
+}
+.menu-mail{
+  margin-left: 371px;
+  margin-right: 50px;
+}
+
+.menu-logo-item {
+  font-family: var(--secondary-font);
+  font-size: 26px;
+  line-height: 1.192;
+  letter-spacing: 0.03em;
+  color: var(--main-color);
+}
+.menu-logo-accent {
+  color: var(--text-default);
+}
+
+.navigation-list-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.142;
+  letter-spacing: 0.02em;
+  color: var(--text-default);
+}
+
+.navigation-list-link:hover,
+.navigation-list-link:focus {
+  color: var(--main-color);
+}
+.menu-mail,
+.menu-phonenumber {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.142;
+  letter-spacing: 0.02em;
+  color: var(--description);
+}
+.menu-mail:hover,
+.menu-mail:focus,
+.menu-phonenumber:hover,
+.menu-phonenumber:focus {
+  color: var(--main-color);
+}
+
+/* ########### END MENU ############## */
+
+/* ########### HEDER ############## */
+
+
+.header .container{
+  background: #2f303a;
+}
+.container .header-item{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.header-item{
+  padding-top: 200px;
+  padding-bottom: 200px;
+}
+
+.header-title {
+  margin-bottom: 40px;
+  width: 696px;
+  height: 120px;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.333;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--white);
+}
+.header-btn {
+  width: 200px;
+  padding: 10px 41px;
+  border: 0px;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.875;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: var(--text-default);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+}
+
+/* ########### END HEDER ############## */
+
+/* ########### MAIN ############## */
+.strengths .container {
+  display: flex;
+}
+.strengths-list{
+  display: flex;
+}
+.strengths-item:not(:last-child){
+  margin-right: 46px;
+}
+
+.strengths-title {
+  margin-bottom: 10px;
+  width: 270px;
+  font-size: 14px;
+  line-height: 1.142;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+.strengths-about {
+  width: 270px;
+  font-size: 14px;
+  line-height: 1.714;
+  letter-spacing: 0.03em;
+  color: var(--description);
+}
+.whatwedo-title,
+.ourteam-title {
+  margin-bottom: 50px;
+  font-size: 36px;
+  line-height: 1.166;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+.whatwedo{
+  padding-bottom: 94px;
+}
+.whatwedo-list {
+  display: flex;
+}
+.whatwedo-list-item:not(:last-child),
+.ourteam-list-item:not(:last-child){
+  margin-right: 30px;
+}
+.ourteam .container{
+  background: #F5F4FA;
+}
+.ourteam-list{
+  display: flex;
+}
+.ourteam-list-item{
+  background: #FFFFFF;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+
+}
+.ourteam-list-img{
+  margin-bottom: 30px;
+}
+.ourteam-list-name{
+  margin-bottom: 10px;
+}
+
+.ourteam-list-name {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.187;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+.ourteam-list-job {
+  font-size: 16px;
+  line-height: 1.187;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--description);
+}
+
+/* ########### END MAIN ############## */
+
+/* ########### FOOTER ############## */
+.footer .container{
+  background: #2f303a;
+}
+
+.logo-footer {
+  padding-top: 60px;
+  margin-bottom: 20px;
+}
+.address-list-item:not(:last-child) {
+margin-bottom: 9px;
+}
+.address{
+  padding-bottom: 60px;
+}
+.address-list-link {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.714;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+}
+a[href="https://goo.gl/maps/HhbNM7JacB6x19Nx8"]
+{
+  color: var(--white);
+}
+.address-list-link:hover,
+.address-list-link:focus {
+  color: var(--main-color);
+}
+.footer-logo-accent {
+  color: var(--white);
+}
+
+/* ########### END FOOTER ############## */
+
+/* ########### PORTFOLIO ############## */
+.container .filters-list{
+  display: flex;
+  justify-content: center;
+}
+.filters-list-item:not(:last-child){
+  margin-right: 8px;
+}
+
+.filters-list-btn {
+  padding: 6px 22px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.625;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--text-default);
+}
+
+.container .projects-list {
+  display: flex;
+}
+.projects-list{
+  min-height: 1272px;
+  padding-top: 50px;
+  flex-wrap: wrap;
+  align-items: center;
+}
+/* .projects-list-img {
+  margin-bottom: 20px;
+} */
+.projects-list-title{
+  margin-bottom: 4px;
+  padding-left: 24px;
+}
+.projects-list-type {
+padding-bottom: 20px;
+padding-left: 24px;
+}
+.projects-list-item:not(:nth-child(3n)){
+  margin-right: 30px;
+}
+.projects-list-item:nth-child(-n+6){
+margin-bottom: 30px;
+}
+.projects-frame{
+  padding-top: 20px;
+  border-right: 1px solid #EEEEEE;
+  border-bottom: 1px solid #EEEEEE;
+  border-left: 1px solid #EEEEEE;
+}
+
+
+}
+.projects-list-title {
+  font-size: 18px;
+  line-height: 1.666;
+  letter-spacing: 0.06em;
+}
+.projects-list-type {
+  font-size: 16px;
+  line-height: 1.875;
+  letter-spacing: 0.03em;
+  color: var(--description);
+}
+/* ########### END PORTFOLIO ############## */
