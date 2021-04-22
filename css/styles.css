@@ -195,14 +195,38 @@ img {
 
 /* ########### MAIN ############## */
 .strengths .container {
+  display: block;
+}
+.strengths-list,
+.strengths-list-icons{
   display: flex;
 }
-.strengths-list{
+.strengths-list-icons,
+.strengths-list-icons-item{
   display: flex;
+
 }
-.strengths-item:not(:last-child){
-  margin-right: 46px;
+
+.strengths-item:not(:last-child),
+.strengths-list-icons-item:not(:last-child){
+  margin-right: 30px;
 }
+.strengths-list-icons-item{
+  width: 270px;
+height: 120px;
+/* left: 515px;
+top: 774px; */
+
+background: #F5F4FA;
+border-radius: 4px;
+}
+.strengthsicons{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+
 
 .strengths-title {
   margin-bottom: 10px;
