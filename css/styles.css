@@ -67,9 +67,6 @@ img {
 /* ########### END COMPONENT ############## */
 
 /* ########### MENU ############## */
-.menu{
-  
-}
 
 .menu .container {
   display: flex;
@@ -89,10 +86,7 @@ img {
 .navigation-list-item:not(:last-child){
   margin-right: 46px;
 }
-.menu-mail{
-  margin-left: 371px;
-  margin-right: 50px;
-}
+
 
 .menu-logo-item {
   font-family: var(--secondary-font);
@@ -130,6 +124,21 @@ img {
 .menu-phonenumber:hover,
 .menu-phonenumber:focus {
   color: var(--main-color);
+}
+
+.envelope{
+  width: 16px;
+  height: 12px;
+  margin-left: 345px;
+}
+.smartphone{
+  width: 10px;
+  height: 16px;
+  margin-left: 30px;
+}
+.envelope,
+.smartphone{
+  margin-right: 10px;
 }
 
 /* ########### END MENU ############## */
