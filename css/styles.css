@@ -245,7 +245,8 @@ border-radius: 4px;
   color: var(--description);
 }
 .whatwedo-title,
-.ourteam-title {
+.ourteam-title,
+.ourclient-title {
   margin-bottom: 50px;
   font-size: 36px;
   line-height: 1.166;
@@ -295,6 +296,20 @@ border-radius: 4px;
   letter-spacing: 0.03em;
   color: var(--description);
 }
+
+.ourclient-list{
+  display: flex;
+  justify-content: center;
+}
+.ourclient-list-item{
+width: 170px;
+height: 92px;
+border: 1px solid #AFB1B8;
+box-sizing: border-box;
+border-radius: 4px;
+}
+
+
 
 /* ########### END MAIN ############## */
 
