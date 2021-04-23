@@ -201,7 +201,7 @@ img {
 .strengths-list-icons{
   display: flex;
 }
-.strengths-list-icons,
+.strengths-list-icons
 .strengths-list-icons-item{
   display: flex;
 
@@ -214,17 +214,18 @@ img {
 .strengths-list-icons-item{
   width: 270px;
 height: 120px;
-/* left: 515px;
-top: 774px; */
-
+margin-bottom: 30px;
 background: #F5F4FA;
 border-radius: 4px;
 }
 .strengthsicons{
-  display: flex;
+  /* display: flex;
   align-items: center;
   justify-content: center;
-  
+  flex-direction: column; */
+  width: 70px;
+  min-height: 70px;
+  margin-left: 100px;
 }
 
 
