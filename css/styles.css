@@ -64,6 +64,7 @@ img {
   color: var(--white);
 }
 
+
 /* ########### END COMPONENT ############## */
 
 /* ########### MENU ############## */
@@ -307,7 +308,6 @@ display: flex;
 width: 170px;
 height: 92px;
 border: 1px solid #AFB1B8;
-box-sizing: border-box;
 border-radius: 4px;
 }
 .ourclient-icons{
@@ -324,7 +324,9 @@ border-radius: 4px;
 .footer .container{
   background: #2f303a;
 }
-
+.left-footer{
+  min-width: 246px;
+}
 .logo-footer {
   padding-top: 60px;
   margin-bottom: 20px;
@@ -354,6 +356,33 @@ a[href="https://goo.gl/maps/HhbNM7JacB6x19Nx8"]
 .footer-logo-accent {
   color: var(--white);
 }
+.right-footer{
+  padding-left: 70px;
+}
+.social-title{
+padding-bottom: 20px;
+font-size: 14px;
+line-height: 1.143;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: #FFFFFF;
+}
+.footer .container{
+  display: flex;
+}
+.social-list{
+  display: flex;
+  background-color: #2196f3;
+}
+.social-list-item{
+  display: flex;
+  width: 50px;
+  height: 50px;
+}
+.social-list > .social-list-item:not(:last-child){
+  margin-right: 10px;
+}
+
 
 /* ########### END FOOTER ############## */
 
