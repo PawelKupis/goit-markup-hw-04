@@ -152,7 +152,7 @@ img {
   background-image: linear-gradient(
     rgba(47, 48, 58, 0.4),
     rgba(47, 48, 58, 0.4)), 
-  url(/images/background/headerbackground.jpg);
+  url(images/background/headerbackground.jpg);
   height: 600px;
   left: 0px;
   top: 80px;
