@@ -396,7 +396,7 @@ color: #FFFFFF;
 .social-list-link:hover,
 .social-list-link:focus{
   fill: var(--white); 
-background: var(--main-color);  
+background-color: var(--main-color);  
 }
 .social-icon{
   width: 20px;
