@@ -29,8 +29,20 @@
                             <a class="navigation-list-link" href="Kontakt">Kontakt</a></li>
                     </ul>
                 </nav>
-                <a class="menu-mail" href="mailto:info@devstudio.com">info@devstudio.com</a>
-                <a class="menu-phonenumber" href="tel:48111111111">+48 111 111 111</a>
+                <div class="menu-contact">
+                    <a class="menu-mail" href="mailto:info@devstudio.com">
+                        <svg class="icon-envelope">
+                            <use href="./images/icons.svg#icon-envelope"></use>
+                        </svg>
+                        info@devstudio.com
+                    </a>
+                    <a class="menu-phonenumber" href="tel:48111111111">
+                        <svg class="icon-smartphone">
+                            <use href="./images/icons.svg#icon-smartphone"></use>
+                        </svg>
+                        +48 111 111 111
+                    </a>
+                </div>
             </div>
         </section>
     </header>
@@ -128,19 +140,54 @@
     </main>
     <footer class="footer">
         <div class="container">
-            <h2 class="logo-footer">
-                <a class="menu-logo-item" href="#">Web<span class="footer-logo-accent">Studio</span></a>
-            </h2>
-            <address class="address">
-                <ul class="address-list list">
-                    <li class="address-list-item">
-                        <a class="address-list-link" href="https://goo.gl/maps/HhbNM7JacB6x19Nx8" target="_blank">m. Warszawa, Aleje Jerozolimskie 21</a></li>
-                    <li class="address-list-item">
-                        <a class="address-list-link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-                    <li class="address-list-item">
-                        <a class="address-list-link" href="tel:48111111111">+48 111 111 111</a></li>
+            <div class="left-footer">
+                <h2 class="logo-footer">
+                    <a class="menu-logo-item" href="#">Web<span class="footer-logo-accent">Studio</span></a>
+                </h2>
+                <address class="address">
+                    <ul class="address-list list">
+                        <li class="address-list-item">
+                            <a class="address-list-link" href="https://goo.gl/maps/HhbNM7JacB6x19Nx8" target="_blank">m. Warszawa, Aleje Jerozolimskie 21</a></li>
+                        <li class="address-list-item">
+                            <a class="address-list-link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+                        <li class="address-list-item">
+                            <a class="address-list-link" href="tel:48111111111">+48 111 111 111</a></li>
+                    </ul>
+                </address>
+            </div>
+            <div class="right-footer">
+                <h3 class="social-title">Dołącz do nas</h3>
+                <ul class="social-list list">
+                    <li class="social-list-item">
+                        <a class="social-list-link footer-icon" href="#">
+                            <svg class="social-icon">
+                            <use href="./images/icons.svg#icon-instagram"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="social-list-item">
+                        <a class="social-list-link footer-icon" href="#">
+                        <svg class="social-icon">
+                            <use href="./images/icons.svg#icon-twitter"></use>
+                        </svg>
+                        </a>
+                    </li>
+                    <li class="social-list-item">
+                        <a class="social-list-link footer-icon" href="#">
+                        <svg class="social-icon">
+                            <use href="./images/icons.svg#icon-facebook"></use>
+                        </svg>
+                        </a>
+                    </li>
+                    <li class="social-list-item">
+                        <a class="social-list-link footer-icon" href="#">
+                        <svg class="social-icon">
+                            <use href="./images/icons.svg#icon-linkedin"></use>
+                        </svg>
+                        </a>
+                    </li>
                 </ul>
-            </address>
+            </div>
         </div>
     </footer>
 </body>
